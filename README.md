@@ -1,5 +1,5 @@
 # xsp
-This package provides statistics to test periodicity of time series data using Chi-square periodogram (Sokolove, 1978). The Qp is calculated by following formula,
+This package provides statistics to test periodicity of time series data using Chi-square periodogram (Sokolove, *J Theor Biol*., 1978). The Qp is calculated by following formula,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Q_{P=}\frac{KN{\displaystyle\sum_{h=1}^P}({\overline&space;y}_h-\overline&space;y)^2}{{\displaystyle\sum_{i=1}^N}(y_i-\overline&space;y)^2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Q_{P=}\frac{KN{\displaystyle\sum_{h=1}^P}({\overline&space;y}_h-\overline&space;y)^2}{{\displaystyle\sum_{i=1}^N}(y_i-\overline&space;y)^2}" title="Q_{P=}\frac{KN{\displaystyle\sum_{h=1}^P}({\overline y}_h-\overline y)^2}{{\displaystyle\sum_{i=1}^N}(y_i-\overline y)^2}" /></a>
 
