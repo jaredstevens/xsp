@@ -5,3 +5,8 @@ This package provides statistics to test periodicity of time series data using C
 
 where *P* is the period of samples, *y̅<sub>h</sub>* are the means of column after arranging the series (of *N* elements) in an array of *P* columns, and *K* is the row number of the resulting array. *Q<sub>P</sub>* follows a chi-square distribution with as many degrees as cycles in each section. 
 
+![Rplot.pdf](https://github.com/hiuchi/xsp/files/2108747/Rplot.pdf)
+
+
+
+![xsp](https://github.com/hiuchi/xsp/files/2108747/Rplot.pdf)
