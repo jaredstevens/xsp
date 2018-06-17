@@ -7,6 +7,4 @@ where *P* is the period of samples, *y̅<sub>h</sub>* are the means of column af
 
 ![Rplot.pdf](https://github.com/hiuchi/xsp/files/2108747/Rplot.pdf)
 
-
-
 ![xsp](https://github.com/hiuchi/xsp/files/2108747/Rplot.pdf)
