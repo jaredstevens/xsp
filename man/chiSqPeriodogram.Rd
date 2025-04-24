@@ -4,10 +4,12 @@
 \alias{chiSqPeriodogram}
 \title{Calculate chi-square periodogram}
 \usage{
-chiSqPeriodogram(activityDF, res = 0.1)
+chiSqPeriodogram(activityDF, periodRange = c(5, 35), res = 0.1)
 }
 \arguments{
 \item{activityDF}{data frame containing time and activity values}
+
+\item{periodRange}{a vector of two values indicating the range of periods to be tested}
 
 \item{res}{time resolution for calculating chi-squared statistics}
 }
