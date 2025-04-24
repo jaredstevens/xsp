@@ -11,7 +11,7 @@
 #'@return data frame of two columns (dateTime (min), Qp value)
 #'
 #'@export
-chiSqPeriodogram <- function(activityDF, periodRange=c(5, 35), res = 0.1){
+chiSqPeriodogram <- function(activityDF, periodRange = c(5, 35), res = 0.1){
   testPerVec <- seq(periodRange[1],periodRange[2],by=res)
   qpArray <- map_dbl(testPerVec, ~ calcQp(activityDF$value, .x))
   sigArray <- map_dbl(testPerVec, ~ qchisq(0.99^(1/length(testPerVec)),
